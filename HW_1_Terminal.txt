@@ -1,0 +1,21 @@
+1) Посмотреть где я - pwd
+2) Создать папку – mkdir foldername
+3) Зайти в папку – cd foldername 
+4) Создать 3 папки – mkdir foldername foldername foldername
+5) Зайти в любоую папку – cd foldername
+6) Создать 5 файлов (3 txt, 2 json) – touch (cat >) name.txt name.txt name.txt name.json name.json
+7) Создать 3 папки - mkdir foldername foldername foldername
+8. Вывести список содержимого папки ls -l (также работает ls -la, ls -li) 
+9) + Открыть любой txt файл cat name.txt 
+10) + написать туда что-нибудь, любой текст. cat >> 1234
+11) + сохранить и выйти. ctrl + c 
+12) Выйти из папки на уровень выше cd ..
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. foldername/name.txt foldername/name.txt (у меня работает по другому: qa33/qa2.txt qa33/qa4.json qa32) 
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. cp foldername/name.txt foldername/name.txt (cp qa33/qa5.json qa33/qa33.txt qa31)
+15) Найти файл по имени find name.txt
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+17) вывести несколько первых строк из текстового файла head -n2 name.txt
+18) вывести несколько последних строк из текстового файла tail -n2 name.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает. less name.txt (возможен поиск по документу командами / ?)
+20) вывести дату и время date 
+

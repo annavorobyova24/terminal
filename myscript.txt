@@ -1,0 +1,9 @@
+
+#!/bin/bash
+cd QA
+mkdir qa1 qa2 qa3 
+cd qa2 
+touch a1.txt q2.txt a3.txt a4.json a5.json 
+mkdir qa4 qa5 qa6 
+ls -li
+mv a1.txt a4.json /Users/annavorobeva/QA/qa1  
